@@ -1,7 +1,7 @@
 // Color Variables
-$color-white: #FFFFFF;
-$color-green: #29AE81;
-$color-gray: #A4A4A4;
+$color-white: #ffffff;
+$color-green: #29ae81;
+$color-gray: #a4a4a4;
 $color-black: #000000;
 
 // Media Query Variables
@@ -13,18 +13,16 @@ $media-desktop: 1024px;
 
 //Font Mixins
 @mixin font-title {
-    font-family: 'Ruda', sans-serif;
-    font-weight: 700;
-
+  font-family: "Ruda", sans-serif;
+  font-weight: 700;
 }
 
 @mixin font-subtitle {
-    font-family: 'Ruda', sans-serif;
-    font-weight: 500;
-    
+  font-family: "Ruda", sans-serif;
+  font-weight: 500;
 }
 
 @mixin font-paragraph {
-    font-family: 'Ruda', sans-serif;
-    font-weight: 400;  
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
 }

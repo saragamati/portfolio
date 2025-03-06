@@ -1,61 +1,61 @@
 .c-10 {
   width: 10%;
   border-radius: 6px;
-  background-color: #29AE81;
+  background-color: #29ae81;
 }
 
 .c-20 {
   width: 20%;
   border-radius: 6px;
-  background-color: #29AE81;
+  background-color: #29ae81;
 }
 
 .c-30 {
   width: 30%;
   border-radius: 6px;
-  background-color: #29AE81;
+  background-color: #29ae81;
 }
 
 .c-40 {
   width: 40%;
   border-radius: 6px;
-  background-color: #29AE81;
+  background-color: #29ae81;
 }
 
 .c-50 {
   width: 50%;
   border-radius: 6px;
-  background-color: #29AE81;
+  background-color: #29ae81;
 }
 
 .c-60 {
   width: 60%;
   border-radius: 6px;
-  background-color: #29AE81;
+  background-color: #29ae81;
 }
 
 .c-70 {
   width: 70%;
   border-radius: 6px;
-  background-color: #29AE81;
+  background-color: #29ae81;
 }
 
 .c-80 {
   width: 80%;
   border-radius: 6px;
-  background-color: #29AE81;
+  background-color: #29ae81;
 }
 
 .c-90 {
   width: 90%;
   border-radius: 6px;
-  background-color: #29AE81;
+  background-color: #29ae81;
 }
 
 .c-100 {
   width: 100%;
   border-radius: 6px;
-  background-color: #29AE81;
+  background-color: #29ae81;
 }
 
 .m-auto {
@@ -71,7 +71,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   font-family: "Ruda", sans-serif;
   font-weight: 400;
   width: 100%;
@@ -89,8 +90,8 @@ html, body {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: #29AE81;
-  color: #FFFFFF;
+  background-color: #29ae81;
+  color: #ffffff;
 }
 .webview .intro .container h1 {
   font-size: 2rem;
@@ -114,9 +115,9 @@ html, body {
   width: 160px;
   height: 35px;
   border-radius: 6px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   background-color: transparent;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 .webview .about {
@@ -135,7 +136,7 @@ html, body {
   font-weight: 500;
   font-size: 1.6rem;
   font-weight: bold;
-  color: #29AE81;
+  color: #29ae81;
 }
 .webview .about .container .row {
   width: 100%;
@@ -187,7 +188,15 @@ html, body {
   width: 100%;
   min-height: 25px;
 }
-.webview .about .container .row .c-description .skills .h-item .h-c-percentage .h-percentage-global {
+.webview
+  .about
+  .container
+  .row
+  .c-description
+  .skills
+  .h-item
+  .h-c-percentage
+  .h-percentage-global {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -196,18 +205,36 @@ html, body {
   height: 6px;
   border-radius: 6px;
 }
-.webview .about .container .row .c-description .skills .h-item .h-c-percentage .h-percentage-global .h-percentage-knowledge {
+.webview
+  .about
+  .container
+  .row
+  .c-description
+  .skills
+  .h-item
+  .h-c-percentage
+  .h-percentage-global
+  .h-percentage-knowledge {
   height: 100%;
 }
-.webview .about .container .row .c-description .skills .h-item .h-c-percentage .h-percentage-global span {
+.webview
+  .about
+  .container
+  .row
+  .c-description
+  .skills
+  .h-item
+  .h-c-percentage
+  .h-percentage-global
+  span {
   font-family: "Ruda", sans-serif;
   font-weight: 400;
   margin-left: 10px;
 }
 .webview .services {
   width: 100%;
-  background-color: #29AE81;
-  color: #FFFFFF;
+  background-color: #29ae81;
+  color: #ffffff;
 }
 .webview .services .container {
   padding: 10px;
@@ -223,7 +250,7 @@ html, body {
   font-weight: 400;
   font-size: 1.6rem;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .webview .services .container .s-carousel {
   display: flex;
@@ -237,22 +264,46 @@ html, body {
   flex-direction: row;
   min-width: 100%;
 }
-.webview .services .container .s-carousel .s-carousel-container .s-carousel-item {
+.webview
+  .services
+  .container
+  .s-carousel
+  .s-carousel-container
+  .s-carousel-item {
   min-height: 260px;
-  background-color: #FFFFFF;
-  color: #29AE81;
+  background-color: #ffffff;
+  color: #29ae81;
 }
-.webview .services .container .s-carousel .s-carousel-container .s-carousel-item .title {
+.webview
+  .services
+  .container
+  .s-carousel
+  .s-carousel-container
+  .s-carousel-item
+  .title {
   width: 100%;
   padding: 10px;
 }
-.webview .services .container .s-carousel .s-carousel-container .s-carousel-item .title p {
+.webview
+  .services
+  .container
+  .s-carousel
+  .s-carousel-container
+  .s-carousel-item
+  .title
+  p {
   font-family: "Ruda", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   font-weight: bold;
 }
-.webview .services .container .s-carousel .s-carousel-container .s-carousel-item .body {
+.webview
+  .services
+  .container
+  .s-carousel
+  .s-carousel-container
+  .s-carousel-item
+  .body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -260,7 +311,14 @@ html, body {
   width: 100%;
   min-height: 180px;
 }
-.webview .services .container .s-carousel .s-carousel-container .s-carousel-item .body .icon {
+.webview
+  .services
+  .container
+  .s-carousel
+  .s-carousel-container
+  .s-carousel-item
+  .body
+  .icon {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -268,10 +326,26 @@ html, body {
   width: 100%;
   margin-bottom: 10px;
 }
-.webview .services .container .s-carousel .s-carousel-container .s-carousel-item .body .icon span i {
+.webview
+  .services
+  .container
+  .s-carousel
+  .s-carousel-container
+  .s-carousel-item
+  .body
+  .icon
+  span
+  i {
   font-size: 38px;
 }
-.webview .services .container .s-carousel .s-carousel-container .s-carousel-item .body .text {
+.webview
+  .services
+  .container
+  .s-carousel
+  .s-carousel-container
+  .s-carousel-item
+  .body
+  .text {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -279,7 +353,15 @@ html, body {
   width: 100%;
   min-height: 10px;
 }
-.webview .services .container .s-carousel .s-carousel-container .s-carousel-item .body .text p {
+.webview
+  .services
+  .container
+  .s-carousel
+  .s-carousel-container
+  .s-carousel-item
+  .body
+  .text
+  p {
   font-family: "Ruda", sans-serif;
   font-weight: 400;
   text-align: center;
@@ -303,7 +385,7 @@ html, body {
   font-weight: 500;
   font-size: 1.6rem;
   font-weight: bold;
-  color: #29AE81;
+  color: #29ae81;
 }
 .webview .portfolios .container .p-projects {
   width: 100%;
@@ -328,19 +410,34 @@ html, body {
 .webview .portfolios .container .p-projects .project .photos .img:hover {
   cursor: pointer;
 }
-.webview .portfolios .container .p-projects .project .photos .img:hover .description {
+.webview
+  .portfolios
+  .container
+  .p-projects
+  .project
+  .photos
+  .img:hover
+  .description {
   position: absolute;
   display: flex;
   width: 100%;
   height: 50px;
-  background-color: #29AE81;
+  background-color: #29ae81;
   bottom: 0;
   left: 0;
   z-index: 9999;
 }
-.webview .portfolios .container .p-projects .project .photos .img:hover .description p {
+.webview
+  .portfolios
+  .container
+  .p-projects
+  .project
+  .photos
+  .img:hover
+  .description
+  p {
   display: block;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .webview .portfolios .container .p-projects .project .photos .img img {
   width: 100%;
@@ -358,11 +455,19 @@ html, body {
   width: 100%;
   min-height: 50px;
 }
-.webview .portfolios .container .p-projects .project .photos .img .description p {
+.webview
+  .portfolios
+  .container
+  .p-projects
+  .project
+  .photos
+  .img
+  .description
+  p {
   display: none;
   font-family: "Ruda", sans-serif;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .webview .contact {
   width: 100%;
@@ -382,7 +487,7 @@ html, body {
   font-weight: 500;
   font-size: 1.6rem;
   font-weight: bold;
-  color: #29AE81;
+  color: #29ae81;
 }
 .webview .contact .container .form {
   width: 100%;
@@ -401,7 +506,7 @@ html, body {
   font-family: "Ruda", sans-serif;
   font-weight: 400;
   font-weight: bold;
-  color: #29AE81;
+  color: #29ae81;
 }
 .webview .contact .container .form form .form-group .controls input {
   font-family: "Ruda", sans-serif;
@@ -409,14 +514,14 @@ html, body {
   width: 100%;
   min-height: 30px;
   padding: 10px;
-  border: 1px solid #29AE81;
+  border: 1px solid #29ae81;
 }
 .webview .contact .container .form form .form-group .controls input:active {
-  border: 1px solid #29AE81;
+  border: 1px solid #29ae81;
   border-radius: 2px;
 }
 .webview .contact .container .form form .form-group .controls input:focus {
-  border: 1px solid #29AE81;
+  border: 1px solid #29ae81;
   border-radius: 2px;
 }
 .webview .contact .container .form form .form-group .controls textarea {
@@ -425,15 +530,15 @@ html, body {
   width: 100%;
   height: 180px;
   padding: 10px;
-  border: 1px solid #29AE81;
+  border: 1px solid #29ae81;
   outline: none;
 }
 .webview .contact .container .form form .form-group .controls textarea:active {
-  border: 1px solid #29AE81;
+  border: 1px solid #29ae81;
   border-radius: 2px;
 }
 .webview .contact .container .form form .form-group .controls textarea:focus {
-  border: 1px solid #29AE81;
+  border: 1px solid #29ae81;
   border-radius: 2px;
 }
 .webview .contact .container .form form .form-group .btn-form-send {
@@ -443,16 +548,16 @@ html, body {
   width: 140px;
   height: 40px;
   border: none;
-  background-color: #29AE81;
-  color: #FFFFFF;
+  background-color: #29ae81;
+  color: #ffffff;
   border-radius: 2px;
   cursor: pointer;
 }
 .webview .contact .container .form form .form-group .btn-form-send:hover {
-  background-color: #29AE81;
+  background-color: #29ae81;
 }
 .webview .contact .container .form form .form-group .btn-form-send:active {
-  background-color: #29AE81;
+  background-color: #29ae81;
 }
 .webview footer {
   display: flex;
@@ -461,12 +566,12 @@ html, body {
   align-items: center;
   width: 100%;
   height: 50px;
-  background-color: #29AE81;
+  background-color: #29ae81;
 }
 .webview footer span {
   font-family: "Ruda", sans-serif;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .webview .container-whatsapp {
   display: flex;
@@ -491,15 +596,15 @@ html, body {
   border: none;
   cursor: pointer;
   text-decoration: none;
-  background-color: #29AE81;
+  background-color: #29ae81;
 }
 .webview .container-whatsapp .btn-whatsapp i {
   font-size: 2rem;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .webview .container-whatsapp .btn-whatsapp:hover {
-  background-color: #1E8865;
-  border: 2PX solid #FFFFFF;
+  background-color: #1e8865;
+  border: 2px solid #ffffff;
 }
 
 @media only screen and (min-width: 425px) {
@@ -521,7 +626,16 @@ html, body {
   .webview .about .container .row .c-description .skills .h-item .h-title h3 {
     font-size: 1.2rem;
   }
-  .webview .about .container .row .c-description .skills .h-item .h-c-percentage .h-percentage-global span {
+  .webview
+    .about
+    .container
+    .row
+    .c-description
+    .skills
+    .h-item
+    .h-c-percentage
+    .h-percentage-global
+    span {
     font-size: 1.2rem;
   }
   .webview .services .container .s-carousel {
@@ -544,19 +658,34 @@ html, body {
   .webview .portfolios .container .p-projects .project .photos img {
     position: relative;
   }
-  .webview .portfolios .container .p-projects .project .photos img:hover .description {
+  .webview
+    .portfolios
+    .container
+    .p-projects
+    .project
+    .photos
+    img:hover
+    .description {
     position: absolute;
     display: flex;
     width: 100%;
     height: 50px;
-    background-color: #29AE81;
+    background-color: #29ae81;
     bottom: 0;
     left: 0;
     z-index: 9999;
   }
-  .webview .portfolios .container .p-projects .project .photos img:hover .description p {
+  .webview
+    .portfolios
+    .container
+    .p-projects
+    .project
+    .photos
+    img:hover
+    .description
+    p {
     display: block;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .webview .contact .container .title {
     margin-top: 30px;
@@ -587,9 +716,9 @@ html, body {
     height: 40px;
   }
   .webview .intro .container .m-auto-btn .btn-portfolio:hover {
-    background-color: #29AE81;
+    background-color: #29ae81;
     border-radius: 6px;
-    border: 1px solid #29AE81;
+    border: 1px solid #29ae81;
   }
   .webview .about .container {
     width: 90%;
@@ -631,7 +760,16 @@ html, body {
   .webview .about .container .row .c-description .skills .h-item .h-title h3 {
     font-size: 1.2rem;
   }
-  .webview .about .container .row .c-description .skills .h-item .h-c-percentage .h-percentage-global span {
+  .webview
+    .about
+    .container
+    .row
+    .c-description
+    .skills
+    .h-item
+    .h-c-percentage
+    .h-percentage-global
+    span {
     font-size: 1.2rem;
   }
   .webview .services .container {
@@ -676,19 +814,34 @@ html, body {
   .webview .portfolios .container .p-projects .project .photos .img {
     position: relative;
   }
-  .webview .portfolios .container .p-projects .project .photos .img:hover .description {
+  .webview
+    .portfolios
+    .container
+    .p-projects
+    .project
+    .photos
+    .img:hover
+    .description {
     position: absolute;
     display: flex;
     width: 100%;
     height: 50px;
-    background-color: #29AE81;
+    background-color: #29ae81;
     bottom: 0;
     left: 0;
     z-index: 9999;
   }
-  .webview .portfolios .container .p-projects .project .photos .img:hover .description p {
+  .webview
+    .portfolios
+    .container
+    .p-projects
+    .project
+    .photos
+    .img:hover
+    .description
+    p {
     display: block;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .webview .contact {
     margin-bottom: 50px;
